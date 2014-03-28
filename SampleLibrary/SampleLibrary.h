@@ -10,4 +10,6 @@
 
 @interface SampleLibrary : NSObject
 
+- (NSString *)helloString;
+
 @end

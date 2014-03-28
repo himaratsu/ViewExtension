@@ -10,4 +10,8 @@
 
 @implementation SampleLibrary
 
+- (NSString *)helloString {
+    return @"Hello World!";
+}
+
 @end

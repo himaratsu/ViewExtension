@@ -21,6 +21,7 @@
 		D93DD9F018FE03F3005652C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93DD9D218FE03F2005652C6 /* UIKit.framework */; };
 		D93DD9F818FE03F3005652C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D93DD9F618FE03F3005652C6 /* InfoPlist.strings */; };
 		D93DD9FA18FE03F3005652C6 /* ViewExtensionSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DD9F918FE03F3005652C6 /* ViewExtensionSampleTests.m */; };
+		D93DDA0618FE040F005652C6 /* UIView+ViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D93DDA0518FE040F005652C6 /* UIView+ViewExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D93DD9F518FE03F3005652C6 /* ViewExtensionSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewExtensionSampleTests-Info.plist"; sourceTree = "<group>"; };
 		D93DD9F718FE03F3005652C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D93DD9F918FE03F3005652C6 /* ViewExtensionSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewExtensionSampleTests.m; sourceTree = "<group>"; };
+		D93DDA0418FE040F005652C6 /* UIView+ViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewExtension.h"; sourceTree = "<group>"; };
+		D93DDA0518FE040F005652C6 /* UIView+ViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		D93DD9D418FE03F2005652C6 /* ViewExtensionSample */ = {
 			isa = PBXGroup;
 			children = (
+				D93DDA0318FE03FC005652C6 /* ViewExtension */,
 				D93DD9DD18FE03F2005652C6 /* AppDelegate.h */,
 				D93DD9DE18FE03F2005652C6 /* AppDelegate.m */,
 				D93DD9E018FE03F2005652C6 /* Main.storyboard */,
@@ -150,6 +154,15 @@
 				D93DD9F618FE03F3005652C6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D93DDA0318FE03FC005652C6 /* ViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D93DDA0418FE040F005652C6 /* UIView+ViewExtension.h */,
+				D93DDA0518FE040F005652C6 /* UIView+ViewExtension.m */,
+			);
+			name = ViewExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D93DD9E518FE03F2005652C6 /* ViewController.m in Sources */,
+				D93DDA0618FE040F005652C6 /* UIView+ViewExtension.m in Sources */,
 				D93DD9DF18FE03F2005652C6 /* AppDelegate.m in Sources */,
 				D93DD9DB18FE03F2005652C6 /* main.m in Sources */,
 			);

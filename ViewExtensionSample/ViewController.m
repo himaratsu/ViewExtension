@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+ViewExtension.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.y = 50;
 }
 
 - (void)didReceiveMemoryWarning
